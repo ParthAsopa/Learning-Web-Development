@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temporary File</title>
 </head>
+
 <body>
     <h1>This is a temporary file.</h1>
     <!-- Form -->
     <form action="temp.php">
-        Name: <input type="text">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name">
+        </div>
+
         <br>
-        DOB: <input type="date">
+
+        <div>
+            <label for="DOB">DOB:</label>
+            <input type="date" name="myDOB" id="DOB">
+        </div>
+
         <br>
-        input
+
+        <div>
+            <label for="checkbox">Are you eligible?</label>
+            <input type="checkbox" name="myEligiblity" id="checkbox" checked>
+        </div>
+
+        <br>
+
+        <div>
+            Gender:
+            <br> Male<input type="radio" name="mygender">
+            <br>Female<input type="radio" name="mygender">
+            <br>Other<input type="radio" name="mygender">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="text_area">Text Area:<br></label>
+            <textarea name="myText" cols="30" rows="10" id="text_area"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="selection">Selection:</label>
+            <select name="mySelection" id="selection">
+                <option value="opt1">Option 1</option>
+                <option value="opt2" selected>Option 2</option>
+                <option value="opt3">Option 3</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            Submit: <input type="submit" value="button_name1">
+        </div>
+
+        <br>
+
+        <div>
+            Reset: <input type="reset" value="button_name2">
+        </div>
     </form>
 </body>
+
 </html>
