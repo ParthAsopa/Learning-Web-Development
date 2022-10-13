@@ -9,4 +9,5 @@
 #mainImage {
     height: 500px;
     width: 1299px;
+    align-items: center;
 }
