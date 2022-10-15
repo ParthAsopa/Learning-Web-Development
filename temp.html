@@ -7,12 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color: black;
+            background-color: rgb(0, 0, 0);
             color: white;
         }
 
         p {
-            font-family: monospace;
+            font-size: 25px;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 1em;
+            font-family: cursive;
+        }
+
+        #mainP {
+            background-color: rgb(32, 12, 12);
+            height: 100px;
+            width: 580px;
+            border: 3px rgb(177, 120, 120) solid;
+            /* border-width:3px;
+            border-color:rgb(177, 120, 120);
+            border-style:solid; */
+            border-radius: 5px;
         }
     </style>
     <title>Temporary File</title>
@@ -20,7 +35,8 @@
 
 <body>
     <h1 id="mainHeading">Heading</h1>
-    <p id="mainP" class="bgBlue">This is the main paragraph</p>
+    <p id="mainP">This is a paragraph.</p>
+    
 </body>
 
 </html>
